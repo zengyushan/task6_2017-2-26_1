@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 8.8rem;
+    background-color: #5fc0cd;
+    text-align: center;
+}
+
+.header {
+    height: 8.8rem;
+
+    line-height: 4rem;
+    padding: 1.4rem;
+}
+
+.sup_header {
+    background-color: #55a8b3;
+    display: inline-block;
+
+    border-radius: 6px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 6px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 6px; /* Webkit浏览器的私有属性 */
+}
+
+.my_btn {
+    outline: medium;/* 取消点击按钮后出现的边框 */
+    border: none;
+    width: 13rem;
+    height: 6rem;
+    font-size: 2.4rem;
+
+    display: table-cell;
+    vertical-align: middle;
+
+    border-radius: 6px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 6px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 6px; /* Webkit浏览器的私有属性 */
+}
+
+.my_btn1 {
+    margin-right: -0.4rem;
+    background-color: #55a8b3;
+    color: #ffffff;
+
+}
+
+.my_btn2 {
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+
+.coor_icon {
+    position: absolute;
+    background: url(images/img.png) no-repeat;
+    background-size: 4.6rem 20rem;
+    background-position: 0.4rem -11.9rem;
+    top: 2rem;
+    right: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 9.8rem;
+    background-color: #f8fafb;
+}
+
+.first_page {
+    /*border: solid;*/
+    /*position: absolute;*/
+    /*background: url(images/img.png) no-repeat;*/
+    /*background-size: 3rem 4rem;*/
+    /*background-position: top;*/
+    /*!*background-position: 0rem -17rem;*!*/
+    /*width:4rem;*/
+    /*height: 8rem;*/
+    /*left: 16rem;*/
+    /*bottom: 0.8rem;*/
+    color: #5fc0cd;
+
+}
+
+.first_page span {
+    font-size: 2rem;
+    color: #5fc0cd;
+    /*border:solid;*/
+}
+
+.new {
+    /*border: solid;*/
+}
+
+.mine {
+    /*border: solid;*/
+    color: #999999;
+}
+
+.mine span {
+    font-size: 2rem;
+}
+
+.sub_first_page {
+    /*border: solid;*/
+    margin-top: 1.7rem;
+}
+
+.sub_mine {
+    margin-top: 1.7rem;
+}
+
+.mine span{
+    color: #999999;
+}
+.col-xs-4 {
+    text-decoration: none;
+    /*border: solid;*/
+    height: 10rem;
+    text-align: center;
+}
+/* 已被访问过的链接 */
+.a:hover{
+    text-decoration: none;
+}
+.a:visited{
+    text-decoration: none;
+}
